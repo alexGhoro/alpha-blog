@@ -33,12 +33,17 @@ $navbar-default-bg: #15E6CD;
   text-shadow: 4px 4px 4px #aaa;
   text-align: center;
   margin-bottom: 30px;
-  letter-spacing: -1px;  
+  letter-spacing: -1px;
 }
 
 .btn-xlarge{
   font-size: 1.7em;
   background-color: #26547C;
+}
+
+.article-meta-details{
+  border-top: 1px solid #eaeaea;
+  margin-top: 15px;
 }
 
 .article-actions{
