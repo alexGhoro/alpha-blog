@@ -10,11 +10,12 @@ class ArticlesController < ApplicationController
   end
 
   def edit
-    
+
   end
 
   def create
     @article = Article.new(article_params)
+    @article.user = User.first #hard coded TODO need to be deleted
     if @article.save
       flash[:success] = "Successfully created."
       redirect_to article_path(@article)
